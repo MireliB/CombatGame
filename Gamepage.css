@@ -1,0 +1,52 @@
+
+.cardDesign{
+    width: 110px;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: white;
+    position: relative;
+    box-shadow: inset;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .cardDesign:hover{
+    transform: scale(1.05);
+  }
+  
+  .nextCardButton{
+    border: 2px solid rgb(127, 178, 182);
+    width: 150px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: url('../../assets/card\ back\ red.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nextCardButton:hover, .nextCardButton:active{
+    background-image: url('../../assets/card\ back\ red.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid rgb(127, 178, 182);
+  }
+
+  .nextCardButton:hover{
+    transform: scale(1.05);
+  }
+
+  
+  .showPageScore{
+    border: 1px solid white;
+    color: white;
+  }

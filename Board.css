@@ -1,0 +1,29 @@
+.boardShowing{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .boardShowing h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.leaderBoard{
+    text-align: center;
+  }
+
+  .showPageScore{
+    border: 1px solid white;
+    color: white;
+  }
+
+  table{
+    display: inline-block;
+    }
+    td{
+      border: 1px solid black;
+  
+    }
